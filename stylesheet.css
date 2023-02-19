@@ -1,0 +1,28 @@
+.monster{
+    width: 300px;
+    height: auto;
+    padding: 10px 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin:0px
+
+}
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
