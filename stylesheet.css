@@ -1,3 +1,6 @@
+body{
+    margin:0;
+}
 .monster{
     width: 300px;
     height: auto;
@@ -13,8 +16,34 @@
 .hero{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 100px;
+    /*border: 1px solid red;*/
+}
+.hero-img{
+    width: 300px;
+    height: auto;
+
+}
+.hero-text{
+    /*border: 1px solid green;*/
+    width: 600px;
+
+}
+.hero-text p{
+    color: #E5E7EB;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+.signup1{
+    background-color: #3882F6;
 }
 
 ul{
@@ -24,5 +53,5 @@ ul{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
