@@ -68,19 +68,36 @@ h2{
     text-align: center;
 }
 .box img{
-    width: 250px;
+    width: 200px;
     height: auto;
     
 }
 .row{
     display: flex;
-    gap:30px;
+    gap:40px;
     justify-content: center;
     flex-wrap: wrap;
 
 }
 .box{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 210px;
     /*border: 1px solid red;*/
+}
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 5px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+.testimonial p{
+    width: 700px;
+    height: auto;
+
+}
+.info{
+    padding-bottom: 50px;
 }
