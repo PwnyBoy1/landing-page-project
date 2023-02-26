@@ -101,3 +101,22 @@ h2{
 .info{
     padding-bottom: 50px;
 }
+.signup{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px ;
+    border-radius: 15px;
+    color: white;
+    
+}
+.container-signup{
+    padding: 50px 150px ;
+}
+.signup2{
+    border-radius: 5px;
+    align-self: center;
+}
+.signuptext{
+
+}
