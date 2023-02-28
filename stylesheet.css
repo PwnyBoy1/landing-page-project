@@ -1,5 +1,11 @@
 body{
     margin:0;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 img{
     border-radius: 10px;
@@ -23,11 +29,14 @@ img{
     justify-content: center;
     gap: 35px;
     padding: 50px 100px;
+    flex: 1;
     /*border: 1px solid red;*/
 }
 .hero-img{
     width: 300px;
     height: auto;
+    max-width: 300px;
+    max-height: 300px;
 
 }
 .hero-text{
@@ -46,10 +55,17 @@ h1{
     color: #F9FAF8;
     margin-bottom: 5px;
 }
+button{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .signup1{
     background-color: #3882F6;
-    border-radius: 5px;
     color: white;
+    border: none;
+    padding: 5px 30px;
 }
 
 ul{
@@ -96,27 +112,58 @@ h2{
 .testimonial p{
     width: 700px;
     height: auto;
+    flex:1;
 
 }
 .info{
+    display: flex;
+    flex-direction: column;
     padding-bottom: 50px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 .signup{
     background-color: #3882F6;
     display: flex;
     justify-content: space-around;
     padding: 30px 100px ;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
-    
+    gap: 100px;
+    flex: 1;
+    max-width: 800px;
 }
 .container-signup{
     padding: 50px 150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 .signup2{
-    border-radius: 5px;
     align-self: center;
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    font-weight:bold;
+    padding: 5px 20px;
+    
 }
-.signuptext{
-
+h3 {
+    font-weight: 1000;
+    margin-bottom: 5px;
+    
+}
+h3 + p {
+    margin-top: 0px;
+}
+.footer{
+    display:flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }
