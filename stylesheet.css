@@ -33,9 +33,9 @@ img{
     /*border: 1px solid red;*/
 }
 .hero-img{
-    width: 300px;
+    width: 500px;
     height: auto;
-    max-width: 300px;
+    max-width: 500px;
     max-height: 300px;
 
 }
@@ -54,6 +54,7 @@ h1{
     font-weight: 1000;
     color: #F9FAF8;
     margin-bottom: 5px;
+    margin-top:0;
 }
 button{
     text-align: center;
