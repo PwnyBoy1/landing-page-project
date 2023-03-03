@@ -1,5 +1,6 @@
 body{
     margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .content{
@@ -108,17 +109,26 @@ h2{
 .testimonial{
     background-color: #E5E7EB;
     font-size: 36px;
-    padding: 5px 75px;
+    padding: 5px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 300;
+    
+
 }
-.testimonial p{
-    width: 700px;
+.testimonial-text{
     height: auto;
     flex:1;
+    max-width: 900px;
+    margin-bottom: 0;
+    
+}
+.customer{
+    display:flex;
+    margin-top: 0;
 
+    justify-content: flex-end;
 }
 .info{
     display: flex;
